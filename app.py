@@ -7,6 +7,7 @@ import pandas as pd
 import sklearn
 nltk.download('stopwords')
 nltk.download('punkt')
+nltk.download('punkt_tab')
 from nltk.stem.porter import PorterStemmer
 ps=PorterStemmer()
 from nltk.tokenize import word_tokenize
